@@ -1,0 +1,241 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+  font-family: Hanken;
+}
+body {
+  font-family: Hanken;
+  background-color: hsl(0, 0%, 100%);
+  font-weight: bold;
+}
+.div-1 {
+    overflow: auto;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    width: 100%;
+    height: 400px;
+}
+.div-1 div {
+  margin: 0px auto;
+  text-align: center;
+  font-size: 18px;
+  padding: 30px;
+  color: hsl(0, 0%, 100%);
+  overflow: auto;
+  overflow: hidden;
+}
+.circle {
+  border-radius: 100%;
+  background: linear-gradient(to bottom, rgba(60, 41, 135, 0.8), hsla(241, 94%, 65%, 0.1));
+  height: 100px;
+  width: 100px;
+}
+.div-2 {
+  margin: 20px;
+  height: 400px;
+  font-size: 18px;
+}
+.div-3 {
+  margin-top: 20px;
+  line-height: 60px;
+  border-radius: 13px;
+ /* padding-left: 60px !important;*/
+  height: 60px;
+  background-clip: padding-box;
+  background-color: hsla(0, 100%, 67%, 0.1);
+}
+.div-3 .div3-icon {
+  float: left;
+/*   border: 1px solid red;*/
+  width: 20px;
+  height: 20px;
+  margin: 20px 20px;
+  background-image: url(assets/images/icon-reaction.svg);
+}
+.div-80 {
+  float: right;
+  margin-right: 20px;
+}
+
+.div-4 {
+  margin-top: 20px;
+  line-height: 60px;
+  border-radius: 13px;
+  /*padding-left: 60px !important;*/
+  height: 60px;
+  background-color: hsla(39, 100%, 56%, 0.1);
+}
+.div-4 .div4-icon {
+  float: left;
+/*   border: 1px solid red;*/
+  width: 20px;
+  height: 20px;
+  margin: 20px 20px;
+  background-image: url(assets/images/icon-memory.svg);
+}
+.div-92 {
+  float: right;
+  margin-right: 20px;
+}
+.div-5 {
+  margin-top: 20px;
+  line-height: 60px;
+  border-radius: 13px;
+  /*padding-left: 60px !important;*/
+  height: 60px;
+  background-color: hsla(166, 100%, 37%, 0.1)
+
+}
+.div-5 .div5-icon {
+  float: left;
+/*   border: 1px solid red;*/
+  width: 20px;
+  height: 20px;
+  margin: 20px 20px;
+  background-image: url(assets/images/icon-verbal.svg);
+}
+.div-61 {
+  float: right;
+  margin-right: 20px;
+}
+.div-6 {
+  margin-top: 20px;
+  line-height: 60px;
+  border-radius: 13px;
+  /*padding-left: 60px !important;*/
+  height: 60px;
+  background-color: hsla(234, 85%, 45%, 0.1)
+}
+.div-6 .div6-icon {
+  float: left;
+/*   border: 1px solid red;*/
+  width: 20px;
+  height: 20px;
+  margin: 20px 20px;
+  background-image: url(assets/images/icon-visual.svg);
+}
+.div-72 {
+  float: right;
+  margin-right: 20px;
+}
+.div-r {
+  float: left;
+  font-size: 19px;
+  color: hsla(0, 100%, 67%, 0.9);
+}
+.div-result {
+    padding-bottom: 100px;
+    height: 20px;
+}
+.span-76 {
+  font-size: 60px;
+}
+.div-of {
+  font-size: 15px;
+}
+.div-great {
+  color: hsla(0, 0%, 100%, 0.5);
+  font-size: 15px;
+}
+.span-great {
+  margin-bottom: 10px;
+  font-size: 30px;
+  display: block;
+}
+.div-m {
+  float: left;
+  font-size: 19px;
+  color: hsla(39, 100%, 56%, 0.9);    
+}
+.div-ve {
+  float: left;
+  font-size: 19px;
+  color: hsla(166, 100%, 37%, 0.9);    
+}
+.div-vi {
+  float: left;
+  font-size: 19px;
+  color: hsla(234, 100%, 45%, 0.9);    
+}
+.div-2 span {
+  color:hsla(0, 1%, 58%, 0.8);
+}
+.div-cont {
+  margin: 20px 0px;
+  padding: 0px 40%;
+  height: 55px;
+  background-color: hsl(224, 30%, 27%);
+  border-radius: 50px;
+  color: hsl(0, 0%, 100%, 0.7);
+  line-height: 55px; 
+}
+.div-cont:hover {
+  background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%))
+}
+@media only screen and (min-width: 1440px)
+{
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  .div-body {
+    overflow: auto;
+    overflow: hidden;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 40px;
+    margin: 300px;
+    width: 780px;
+    height: 525px;
+    box-shadow: 20px 20px 30px rgba(228, 226, 226, 0.5);
+  }
+  .div-body .div-1, .div-body .div-2 {
+    width: 350px;
+    height: 520px;
+    /*display: inline-block;*/
+    float: left;
+  }
+  .div-1 {
+    font-size: 100px;
+    border-radius: 40px;
+  }
+  .div-1 .div-result{
+    font-size: 20px;
+  }
+  .div-1 .circle{
+    width: 150px;
+    height: 150px;
+    margin-top: 25px;
+    padding-top: 30px;
+  }
+  .div-1 .circle .span-76{
+    font-size: 70px;
+    text-align: center;
+    margin: auto;
+    padding-top: auto;
+  }
+  .div-1 .div-great{
+    margin: 0px 20px;
+  }
+  /*.div-1 div{
+    margin: 0px 20px;
+  }*/
+  .div-2 {
+    padding-left: 20px;
+    padding-top: 15px;
+  }
+  .div-2 h4{
+    font-size: 20px;
+  }
+  .div-2 .div-cont {
+    margin-top: 40px;
+  }
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%);
+  text-decoration: none;  
+}
