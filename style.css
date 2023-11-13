@@ -175,6 +175,7 @@ body {
   line-height: 55px; 
 }
 .div-cont:hover {
+  cursor: pointer;
   background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%))
 }
 @media only screen and (min-width: 1440px)
