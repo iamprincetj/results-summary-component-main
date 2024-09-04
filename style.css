@@ -207,6 +207,9 @@ body {
   .div-1 .div-result{
     font-size: 20px;
   }
+  .div-result h1 {
+    font-size: 20px;
+  }
   .div-1 .circle{
     width: 150px;
     height: 150px;
